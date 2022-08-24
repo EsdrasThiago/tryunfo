@@ -61,6 +61,18 @@ class App extends React.Component {
     }
   };
 
+  onSaveButtonClick = () => {
+    this.setState({
+      cardName: '',
+      cardDescription: '',
+      cardImage: '',
+      cardAttr1: '0',
+      cardAttr2: '0',
+      cardAttr3: '0',
+      cardRare: 'normal',
+    });
+  };
+
   render() {
     const {
       cardName,
@@ -90,7 +102,6 @@ class App extends React.Component {
           isSaveButtonDisabled={ isSaveButtonDisabled }
         />
         <Card
-          // onInputChange={ this.onInputChange }
           cardName={ cardName }
           cardDescription={ cardDescription }
           cardAttr1={ cardAttr1 }

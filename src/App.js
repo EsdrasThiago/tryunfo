@@ -41,9 +41,7 @@ class App extends React.Component {
     const attr1 = +cardAttr1 <= maxAttr && +cardAttr1 >= minAttr;
     const attr2 = +cardAttr2 <= maxAttr && +cardAttr2 >= minAttr;
     const attr3 = +cardAttr3 <= maxAttr && +cardAttr3 >= minAttr;
-    console.log(attr1);
     const allValues = +cardAttr1 + +cardAttr2 + +cardAttr3 <= maxNumber;
-    console.log(allValues);
     if (
       cardName
       && cardDescription

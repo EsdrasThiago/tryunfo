@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'AestheticDemo';
+    src: url('../Aesthetic DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-left: 20px;
+    background-color: rgb(24, 44, 71);
+    font-family: 'AestheticDemo';
+    color: white;
+}
+
+.logo {
+    position: fixed;
+    z-index: 1;
+    left: 450px;
+    right: 100px;
+    width: 1000px;
+    color: black;
+}
+
+.forms {
+    background: linear-gradient(180deg, rgba(249, 214, 214, 0.148) 0%, rgba(30, 0, 0, 0) 100%), #5B0000;
+    border-radius: 40px;
+    padding: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    min-width: 400px;
+    max-width: 400px;
+    margin-top: 50px;
+    z-index: 3;
+}
+
+main {
+    display: flex;
+}
+
+#tryunfo {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    left: 200px;
+    right: 100px;
+    /* top: 350px; */
+    opacity: 20%;
+    color: black;
+    /* font-size: 500px; */
+}
+
+.card__image {
+    /* border: 5px solid rgb(255, 255, 255); */
+    border-radius: 5px;
+    max-width: 250px;
+    max-height: 300px;
+    background-color: rgb(56, 0, 7);
+}
+
+.card {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(56, 0, 7);
+    border-radius: 5%;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 1500px;
+    margin-left: 250px;
+    margin-top: 50px;
+    z-index: 3;
+}
+
+.card__saved {
+    text-align: center;
+    display: inline-block;
+    width: 90vw;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(56, 0, 7);
+    border-radius: 5%;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 1500px;
+    margin-left: 250px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.card__input {
+    background-color: rgb(56, 0, 7);
+    min-width: 360px;
+    max-width: 360px;
+}
+
+.forms__input {
+    background-color: rgb(22, 4, 4)
+}
+
+.saved__cards {
+    list-style: none;
+}
